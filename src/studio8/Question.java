@@ -2,7 +2,7 @@ package studio8;
 
 public class Question {
 	private String prompt;
-	private String answer;
+	protected String answer;
 	private int points;
 	
 	public Question(String prompt, String answer, int points) {
